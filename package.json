@@ -1,0 +1,45 @@
+{
+  "name": "@pieropatron/demo_ftp",
+  "version": "1.0.0",
+  "description": "Demo nodejs ftp service. For informational purposes only",
+  "main": "dest/ftpapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc; node dist/ftpapp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pieropatron/demo_ftp.git"
+  },
+  "keywords": [
+    "demo",
+    "ftp",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "pieropatron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pieropatron/demo_ftp/issues"
+  },
+  "homepage": "https://github.com/pieropatron/demo_ftp#demo_ftp",
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "@types/node": "^18.14.6",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "eslint": "^8.29.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.9.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@pieropatron/tinylogger": "^1.0.3",
+    "@types/ftpd": "^0.2.35",
+    "ftpd": "^0.2.16"
+  }
+}
